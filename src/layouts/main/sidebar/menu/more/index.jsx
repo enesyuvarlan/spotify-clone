@@ -1,11 +1,11 @@
-import {Popover, PopoverButton, PopoverPanel} from "@headlessui/react";
+import {Popover} from "@headlessui/react";
 import {Link} from "react-router-dom";
 
 export default function More() {
 
   return (
     <Popover className="relative">
-      <PopoverButton className="py-[3px] block group w-full text-left outline-none">
+      <Popover.Button className="py-[3px] block group w-full text-left outline-none">
         <div
           className={"p-3 rounded-full transition-colors inline-flex items-center group-hover:bg-[#eff3f41a]"}>
           <div className="w-[26.25px] h-[26.25px] relative">
@@ -20,8 +20,8 @@ export default function More() {
             More
           </div>
         </div>
-      </PopoverButton>
-      <PopoverPanel className="w-[318px] absolute rounded-xl bottom-0 left-0 bg-[#15202b] shadow-box overflow-hidden">
+      </Popover.Button>
+      <Popover.Panel className="w-[318px] absolute rounded-xl bottom-0 left-0 bg-[#15202b] shadow-box overflow-hidden">
         <Link to="/">
           <button className="p-3 h-14 w-full transition-colors inline-flex items-center gap-5 hover:bg-[#eff3f41a]">
             <div className="w-[26.25px] h-[26.25px] relative">
@@ -101,7 +101,7 @@ export default function More() {
             </div>
           </button>
         </Link>
-      </PopoverPanel>
+      </Popover.Panel>
     </Popover>
   )
 }
