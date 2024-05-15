@@ -1,7 +1,7 @@
 import {Popover} from "@headlessui/react";
 import {Link} from "react-router-dom";
 
-export default function More({close}) {
+export default function More() {
 
   return (
     <Popover className="relative">
