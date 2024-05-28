@@ -51,9 +51,9 @@ export function Search() {
       </label>
       {focus && (
         <div
-          className="absolute w-[350px] top-full -left-px -translate-y-1 bg-[color:var(--background-primary)] shadow-box max-h-[calc(80vh-53px)] rounded-lg text-center min-h-[100px]">
-          <p className="p-3 pt-5 text-[#71767b] leading-5">
-            Kişileri, listeleri veya anahtar kelimeleri aramayı dene
+          className="absolute w-[350px] top-full -left-px -translate-y-1 bg-[#15202b] shadow-box max-h-[calc(80vh-53px)] rounded-lg text-center min-h-[100px]">
+          <p className="p-3 pt-5 text-[#8b98a5] leading-5">
+            Try searching for people, lists, or keywords
           </p>
         </div>
       )}
