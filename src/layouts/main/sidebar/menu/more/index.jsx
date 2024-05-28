@@ -21,7 +21,7 @@ export default function More() {
           </div>
         </div>
       </Popover.Button>
-      <Popover.Panel className="w-[318px] absolute rounded-xl bottom-0 left-0 bg-[#15202b] shadow-box">
+      <Popover.Panel className="w-[318px] absolute rounded-xl bottom-0 left-0 bg-[#15202b] shadow-box overflow-hidden">
         <Link to="/">
           <button className="p-3 h-14 w-full transition-colors inline-flex items-center gap-5 hover:bg-[#eff3f41a]">
             <div className="w-[26.25px] h-[26.25px] relative">

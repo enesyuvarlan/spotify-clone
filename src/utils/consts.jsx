@@ -235,3 +235,69 @@ export const mainMenu = [
   },
 
 ]
+export const topics = [
+  {
+    title: 'Entertainment · Trending',
+    topic: {
+      type: 'query',
+      value: 'Cem yılmaz'
+    },
+    postCount: 15640
+  },
+  {
+    title: 'Trending in Turkey',
+    topic: {
+      type: 'tag',
+      value: 'deprem'
+    },
+    postCount: 9999
+  },
+  {
+    title: 'Trending in Turkey',
+    topic: {
+      type: 'query',
+      value: 'Onaylandı'
+    },
+    postCount: 11640
+  },
+  {
+    title: 'Sports · Trending',
+    topic: {
+      type: 'query',
+      value: 'ŞAMP11YON'
+    },
+    postCount: 47810
+  },
+  {
+    title: 'Only on X · Trending',
+    topic: {
+      type: 'tag',
+      value: 'corlu'
+    },
+    postCount: 118712
+  },
+  {
+    title: 'Sports · Trending',
+    topic: {
+      type: 'tag',
+      value: 'BJKvTS'
+    },
+    postCount: 13210
+  },
+  {
+    title: 'Trending in Turkey',
+    topic: {
+      type: 'query',
+      value: 'Saat 4'
+    },
+    postCount: 8121
+  },
+  {
+    title: 'Trending in Turkey',
+    topic: {
+      type: 'query',
+      value: 'Starlink'
+    },
+    postCount: 12516
+  },
+]
