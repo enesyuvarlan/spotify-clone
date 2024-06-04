@@ -16,14 +16,14 @@ export default function Menu() {
                  className="py-1 block group">
           {({isActive}) => (
             <div
-              className={classNames("p-3 rounded-full transition-colors inline-flex items-center group-hover:bg-[#eff3f41a]", {
+              className={classNames("text-[color:var(--color-base)] p-3 rounded-full transition-colors inline-flex items-center group-hover:bg-[color:var(--background-third)]", {
                   "font-bold": isActive
                 }
               )}>
               <div className="w-[26.25px] h-[26.25px] relative">
                 {menu?.notification && (
                   <span
-                    className="w-[18px] h-[18px] rounded-full bg-[#1d9bf0] absolute -right-1 -top-1.5 flex justify-center text-[11px] ">
+                    className="bg-[color:var(--color-primary)] w-[1.125rem] h-[1.125rem] rounded-full text-[--color:var(color-base)] absolute -right-1 -top-1.5 flex justify-center text-[11px] ">
                     {menu?.notification}
                 </span>
                 )}

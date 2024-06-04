@@ -18,13 +18,13 @@ export default function More({close}) {
             close()
           }}
           className={classNames("py-3 px-4 flex items-center text-left w-full transition-colors", {
-            "hover:bg-[#eff3f41a]": currentAccount.id !== account.id,
+            "hover:bg-[color:var(--background-third)]": currentAccount.id !== account.id,
             "cursor-default": currentAccount.id === account.id
           })}>
           <img src={account.avatar} className="w-10 h-10 rounded-full" alt=""/>
           <div className="flex-1 mx-3 text-[15px]">
             <h6 className="font-bold leading-[20px]">{account.fullName}</h6>
-            <div className="text-[#71767b]">
+            <div className="text-[color:var(--color-base-secondary)]">
               @{account.username}
             </div>
           </div>
@@ -39,15 +39,15 @@ export default function More({close}) {
       ))}
       <div className="h-px bg-[#38444d] my-3"/>
       <button
-        className="py-3 px-4 text-left hover:bg-[#eff3f41a] transition-colors w-full text-[#e7e9ea] text-[15px] font-bold leading-[20px]">
+        className="py-3 px-4 text-left hover:bg-[color:var(--background-third)] transition-colors w-full text-[color:var(--color-base)] text-[15px] font-bold leading-[20px]">
         Add an existing account
       </button>
       <button
-        className="py-3 px-4 text-left hover:bg-[#eff3f41a] transition-colors w-full text-[#e7e9ea] text-[15px] font-bold leading-[20px]">
+        className="py-3 px-4 text-left hover:bg-[color:var(--background-third)] transition-colors w-full text-[color:var(--color-base)] text-[15px] font-bold leading-[20px]">
         Manage accounts
       </button>
       <button
-        className="py-3 px-4 text-left hover:bg-[#eff3f41a] transition-colors w-full text-[#e7e9ea] text-[15px] font-bold leading-[20px]">
+        className="py-3 px-4 text-left hover:bg-[color:var(--background-third)] transition-colors w-full text-[color:var(--color-base)] text-[15px] font-bold leading-[20px]">
         Log out @{currentAccount.username}
       </button>
     </div>
