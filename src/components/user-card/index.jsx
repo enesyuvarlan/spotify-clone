@@ -10,7 +10,7 @@ export function UserCard({user}) {
       <div className="flex-1 flex gap-3">
         <img src={user.avatar} className="w-10 h-10 rounded-full object-cover" alt=""/>
         <div className="w-[calc(100%-3.25rem)] text-left">
-          <div className="text-[15px] text-[color:var(--color-base)] leading-5 font-bold truncate flex items-center">
+          <div className="text-[15px] leading-5 font-bold truncate flex items-center">
             {user.fullName}
             {user?.verified && (
               <svg viewBox="0 0 22 22" width={18.75} height={18.75} className="text-[#1d9bf0] ml-0.5">

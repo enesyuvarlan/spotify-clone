@@ -3,7 +3,7 @@ import Button from "~/components/button";
 export default function Premium() {
   return (
     <section
-      className="bg-[color:var(--background-primary)] mb-4 rounded-2xl border border-[color:var(--background-secondary)] text-[color:var(--color-base)] py-3 px-4 flex flex-col gap-2.5"
+      className="bg-[color:var(--background-primary)] mb-4 rounded-2xl border border-[color:var(--background-third)] py-3 px-4 flex flex-col gap-2.5"
     >
       <h6 className="text-xl leading-6 font-extrabold">Subscribe to Premium</h6>
       <p className="leading-5 font-bold">
