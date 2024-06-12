@@ -8,10 +8,12 @@ export default function RightBar() {
   return (
     <aside className="w-[350px] mr-[70px]">
       <Search/>
-      <Premium/>
-      <Topics/>
-      <WhoFollow/>
-      <Footer/>
+      <div className="sticky top-[-500px]">
+        <Premium/>
+        <Topics/>
+        <WhoFollow/>
+        <Footer/>
+      </div>
     </aside>
   )
 }

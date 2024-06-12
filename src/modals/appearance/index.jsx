@@ -203,8 +203,8 @@ export default function AppearanceModal({close}) {
               onClick={() => {
                 setColor({
                   ...color,
-                  ase: '#0f1419',
-                  baseSecondary: '#536471'
+                  base: '#e7e9ea',
+                  baseSecondary: '#71767b'
                 })
                 setBackgroundColor({
                   name: 'lights out',
